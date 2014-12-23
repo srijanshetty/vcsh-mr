@@ -2,6 +2,7 @@
 !.config
 !.config/mr
 !.config/mr/available.d
+!.config/mr/available.d/*
 !.config/mr/available.d/github.git
 !.config/mr/available.d/git.vcsh
 !.config/mr/available.d/mr.vcsh
@@ -9,6 +10,7 @@
 !.config/mr/available.d/tmux.vcsh
 !.config/mr/available.d/zsh.vcsh
 !.config/mr/config.d
+!.config/mr/config.d/*
 !.config/mr/config.d/github.git
 !.config/mr/config.d/git.vcsh
 !.config/mr/config.d/mr.vcsh
