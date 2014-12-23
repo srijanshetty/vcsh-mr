@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/vcsh-REPO_NAME.git]
+checkout = vcsh clone ssh://git@your-git-server/vcsh-REPO_NAME.git REPO_NAME

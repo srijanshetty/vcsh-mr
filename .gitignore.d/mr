@@ -1,10 +1,13 @@
 *
 !.config
 !.config/mr
-!.config/mr/available.d
+!.config/mr/available.d/
 !.config/mr/available.d/mr.vcsh
 !.config/mr/available.d/zsh.vcsh
-!.config/mr/config.d
+!.config/mr/available.d/template.vcsh
+!.config/mr/available.d/github.git
+!.config/mr/config.d/
+!.config/mr/config.d/github.git
 !.config/mr/config.d/mr.vcsh
 !.gitignore.d
 !.gitignore.d/mr
