@@ -1,2 +1,6 @@
 [$HOME/.config/vcsh/repo.d/zsh.git]
 checkout = vcsh clone git@github.com:srijanshetty/vcsh-zsh.git zsh
+
+[$HOME/.zsh/antigen-hs]
+checkout = git clone 'https://github.com/srijanshetty/antigen-hs.git' 'antigen-hs'
+

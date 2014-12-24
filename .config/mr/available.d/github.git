@@ -68,9 +68,6 @@ link = ln -s ${PWD}/pushbullet ${local_bin}
 [$HOME/Documents/GitHub/Vaprobash]
 checkout = git clone 'https://github.com/fideloper/Vaprobash.git' 'Vaprobash'
 
-[$HOME/.zsh/antigen-hs]
-checkout = git clone 'https://github.com/srijanshetty/antigen-hs.git' 'antigen-hs'
-
 [$HOME/Documents/GitHub/firewall-auth]
 checkout = git clone 'https://github.com/srijanshetty/firewall-auth.git' 'firewall-auth'
 pre_link = [ -e ${local_bin}/firewall-auth1 ] && rm -f ${local_bin}/firewall-auth1
