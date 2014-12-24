@@ -9,17 +9,22 @@ checkout = git clone 'git://git.gnome.org/california' 'california'
 
 [$HOME/Documents/GitHub/tmux-networkspeed]
 checkout = git clone 'https://github.com/srijanshetty/tmux-networkspeed.git' 'tmux-networkspeed'
+pre_link = 
+    [ -e ${local_bin}/downspeed ] && rm -f ${local_bin}/downspeed
+    [ -e ${local_bin}/upspeed ] && rm -f ${local_bin}/upspeed
 link =
 	   ln -s ${PWD}/downspeed ${local_bin}
 	   ln -s ${PWD}/upspeed ${local_bin}
 
 [$HOME/Documents/GitHub/dotjs-ubuntu]
 checkout = git clone 'https://github.com/glenbot/dotjs-ubuntu.git' 'dotjs-ubuntu'
+pre_link = [ -e ${local_bin}/djsd ] && rm -f ${local_bin}/djsd
 link = ln -s ${PWD}/bin/djsd ${local_bin}
 
 [$HOME/Documents/GitHub/xSwipe]
 checkout = git clone 'https://github.com/iberianpig/xSwipe.git' 'xSwipe'
 update = git pull --rebase
+pre_link = [ -e ${local_bin}/xSwipe.pl ] && rm -f ${local_bin}/xSwipe.pl
 link = ln -s ${PWD}/xSwipe.pl ${local_bin}
 
 [$HOME/Documents/GitHub/autojump]
@@ -57,6 +62,7 @@ fixups = sudo make install
 
 [$HOME/Documents/GitHub/pushbullet-bash]
 checkout = git clone 'https://github.com/Red5d/pushbullet-bash.git' 'pushbullet-bash'
+pre_link = [ -e ${local_bin}/pushbullet ] && rm -f ${local_bin}/pushbullet
 link = ln -s ${PWD}/pushbullet ${local_bin}
 
 [$HOME/Documents/GitHub/Vaprobash]
@@ -67,7 +73,8 @@ checkout = git clone 'https://github.com/srijanshetty/antigen-hs.git' 'antigen-h
 
 [$HOME/Documents/GitHub/firewall-auth]
 checkout = git clone 'https://github.com/srijanshetty/firewall-auth.git' 'firewall-auth'
-link = ln -s ${PWD}/firewall-auth.py ${local_bin}/firewall-auth1
+pre_link = [ -e ${local_bin}/firewall-auth1 ] && rm -f ${local_bin}/firewall-auth1
+link = ln -s ${PWD}/firewall-auth.py ${local_bin}
 
 [$HOME/Documents/GitHub/autostart]
 checkout = git clone 'https://github.com/srijanshetty/autostart.git' 'autostart'
@@ -81,7 +88,8 @@ fixups = sudo make install
 
 [$HOME/Documents/GitHub/git-hooks]
 checkout = git clone 'https://github.com/icefox/git-hooks.git' 'git-hooks'
-link = ln -s ${PWD}/git-hooks ${local_bin}/git-hooks
+pre_link = [ -e ${local_bin}/git-hooks ] && rm -f ${local_bin}/git-hooks
+link = ln -s ${PWD}/git-hooks ${local_bin}
 
 [$HOME/Documents/GitHub/zsh]
 checkout = git clone 'https://github.com/zsh-users/zsh.git' 'zsh'
@@ -99,15 +107,18 @@ checkout = git clone 'https://github.com/travishorn/npm-package-store.git' 'npm-
 
 [$HOME/Documents/GitHub/GitHubRating]
 checkout = git clone 'https://github.com/danielmiessler/GitHubRating.git' 'GitHubRating'
-link = ln -s ${PWD}/GitHubRating.sh ${local_bin}/GitHubRating.sh
+pre_link = [ -e ${local_bin}/GitHubRating.sh ] && rm -f ${local_bin}/GitHubRating.sh
+link = ln -s ${PWD}/GitHubRating.sh ${local_bin}
 
 [$HOME/Documents/GitHub/Antidoto]
 checkout = git clone 'https://github.com/FastVPSEestiOu/Antidoto.git' 'Antidoto'
-link = ln -s ${PWD}/Antidoto.py ${local_bin}/Antidoto.pl
+pre_link = [ -e ${local_bin}/Antidoto.pl ] && rm -f ${local_bin}/Antidoto.pl
+link = ln -s ${PWD}/Antidoto.py ${local_bin}
 
 [$HOME/Documents/GitHub/dirs3arch]
 checkout = git clone 'https://github.com/maurosoria/dirs3arch.git' 'dirs3arch'
-link = ln -s ${PWD}/dirs3arch.py ${local_bin}/dirs3arch.py
+pre_link = [ -e ${local_bin}/dirs3arch.py ] && rm -f ${local_bin}/dirs3arch.py
+link = ln -s ${PWD}/dirs3arch.py ${local_bin}
 
 [$HOME/Documents/GitHub/hot100]
 checkout = git clone 'https://github.com/sampsyo/hot100.git' 'hot100'
@@ -133,6 +144,9 @@ fixups = sudo make install
 
 [$HOME/Documents/GitHub/killmesoftly]
 checkout = git clone 'https://github.com/alanfranz/killmesoftly.git' 'killmesoftly'
+pre_link = 
+    [ -e ${local_bin}/downspeed ] && rm -f ${local_bin}/downspeed
+    [ -e ${local_bin}/upspeed ] && rm -f ${local_bin}/upspeed
 link =
 	       ln -s ${PWD}/kmsn ${local_bin}/kmsn
 	       ln -s ${PWD}/kmsp ${local_bin}/kmsp
