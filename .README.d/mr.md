@@ -184,7 +184,7 @@ Caveats
 
 1. The lack a git prompt in \$HOME, is unnerving. I still need to soak it in and find a system to track changes.
 2. All repositories need to share a common LICENSE and README files (the way git prescribes them to). Again, I need to find a way around this.
-3. I don't like the manual symlinking required in .config.d/. It would be much easier to have helper functions like apache provides for it's web server.
+3. ~~I don't like the manual symlinking required in .config.d/. It would be much easier to have helper functions like apache provides for it's web server~~. [This]() script creates wrappers for automating most of this.
 
 Tracked Tools
 -------------
