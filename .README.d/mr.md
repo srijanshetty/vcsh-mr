@@ -196,6 +196,7 @@ Following is a list of the tools I'm using vcsh to track:
 - [mr](https://github.com/srijanshetty/vcsh-mr)
 - [tmux](https://github.com/srijanshetty/vcsh-tmux)
 - [vim](https://github.com/srijanshetty/vcsh-vim)
+- [misc](https://github.com/srijanshetty/vcsh-misc)
 
 License
 -------
