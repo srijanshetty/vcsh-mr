@@ -2,7 +2,7 @@
 git_gc = git gc "$@"
 jobs = 5
 lib = 
-    local_bin='/home/srijan/Documents/local/bin'
+	   local_bin='/home/srijan/Documents/local/bin'
 
 # vcsh support for Ubuntu 12.04
 include = cat /usr/share/mr/vcsh
