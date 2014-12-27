@@ -25,3 +25,4 @@
 !.LICENSES.d/LICENSE
 !.mrconfig
 !README.md
+.config/mr/available.d/github.git
