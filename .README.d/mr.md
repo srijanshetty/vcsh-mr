@@ -159,7 +159,6 @@ The first line ignores all files in \$HOME and then starts including the files w
 
 Do you see the problem? Okay let me tell you, any new file in *available.d/ or config.d/* is ignored by default. So, I'd advise using the following *.gitignore.d/mr* file which tracks files by default.
 
-
 ```
 *
 !.config
@@ -191,12 +190,15 @@ Tracked Tools
 
 Following is a list of the tools I'm using vcsh to track:
 
-- beets
+- [beets]
+- [ledger]
+- [ssh]
 - [git](https://github.com/srijanshetty/vcsh-git)
 - [mr](https://github.com/srijanshetty/vcsh-mr)
 - [tmux](https://github.com/srijanshetty/vcsh-tmux)
 - [vim](https://github.com/srijanshetty/vcsh-vim)
 - [misc](https://github.com/srijanshetty/vcsh-misc)
+- [zsh](https://github.com/srijanshetty/vcsh-zsh)
 
 License
 -------
