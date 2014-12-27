@@ -4,3 +4,5 @@ checkout = vcsh clone git@github.com:srijanshetty/vcsh-zsh.git zsh
 [$HOME/.zsh/antigen-hs]
 checkout = git clone 'https://github.com/srijanshetty/antigen-hs.git' 'antigen-hs'
 
+[$HOME/.zprezto]
+checkout = git clone --recursive 'git@github.com:srijanshetty/prezto.git' '.zprezto'
