@@ -1,0 +1,16 @@
+[$HOME/Documents/GitHub/myrepos]
+checkout = git clone 'https://github.com/joeyh/myrepos.git' 'myrepos'
+order = 2
+fixups = sudo make install
+
+[$HOME/Documents/GitHub/vcsh]
+checkout = git clone 'https://github.com/RichiH/vcsh.git' 'vcsh'
+order = 2
+fixups = sudo make install
+
+[$HOME/.nvm]
+checkout = git clone 'https://github.com/creationix/nvm.git' '.nvm'
+order = 2
+fixups = git checkout `git describe --abbrev=0 --tags`
+post_fixups = nvm install stable && nvm use stable
+pre_update = git checkout master
