@@ -26,3 +26,4 @@
 !.mrconfig
 !README.md
 .config/mr/available.d/github.git
+.config/mr/config.d/github.git
