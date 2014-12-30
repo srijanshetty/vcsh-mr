@@ -1,0 +1,5 @@
+# export local bin
+export LOCAL_ROOT=~/Documents/local
+export PATH=$PATH:$LOCAL_ROOT/bin
+export MANPATH=$PATH:$LOCAL_ROOT/share/man
+
