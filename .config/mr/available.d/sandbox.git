@@ -13,9 +13,6 @@ checkout = git clone 'git@github.com:srijanshetty/node-sandbox.git' 'node'
 [Documents/sandbox/student-search-iitk]
 checkout = git clone 'git@github.com:srijanshetty/student-search-iitk.git' 'student-search-iitk'
 
-[Documents/sandbox/udacity-dl]
-checkout = git clone 'git@github.com:navya/udacity-dl.git' 'udacity-dl'
-
 [.antigen-hs/repos/https-COLON--SLASH--SLASH-github.com-SLASH-srijanshetty-SLASH-custom]
 checkout = git clone 'git@github.com:srijanshetty/custom.git' 'https-COLON--SLASH--SLASH-github.com-SLASH-srijanshetty-SLASH-custom'
 
