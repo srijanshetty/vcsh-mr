@@ -27,4 +27,6 @@
 !.mrenv
 !README.md
 .config/mr/available.d/github.git
+.config/mr/available.d/sandbox.git
 .config/mr/config.d/github.git
+.config/mr/config.d/sandbox.git
