@@ -22,10 +22,11 @@
 !.gitignore.d
 !.gitignore.d/mr
 !.LICENSES.d
-!.LICENSES.d/LICENSE
+!.LICENSES.d/mr
 !.mrconfig
 !.mrenv
-!README.md
+!.README.d/
+!.README.d/mr.d
 .config/mr/available.d/github.git
 .config/mr/available.d/sandbox.git
 .config/mr/config.d/github.git
