@@ -5,6 +5,10 @@ fixups = git checkout `git describe --abbrev=0 --tags`
 post_fixups = nvm install stable && nvm use stable
 pre_update = git checkout master
 
+[$HOME/.pyenv]
+checkout = git clone 'git://github.com/yyuu/pyenv.git' '.pyenv'
+order = 2
+
 [$HOME/Documents/dotfiles]
 checkout = git clone git@github.com:srijanshetty/dotfiles.git
 order = 3
