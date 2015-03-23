@@ -9,7 +9,7 @@ pre_update = git checkout master
 checkout = git clone 'git://github.com/yyuu/pyenv.git' '.pyenv'
 order = 2
 
-[$HOME/Documents/dotfiles]
+[$HOME/Documents/sandbox/dotfiles]
 checkout = git clone git@github.com:srijanshetty/dotfiles.git
 order = 3
 post_checkout = ${PWD}/installer.zsh -d
