@@ -17,9 +17,9 @@ post_checkout = ${PWD}/installer.zsh -d
 [$HOME/Documents/GitHub/myrepos]
 checkout = git clone 'https://github.com/joeyh/myrepos.git' 'myrepos'
 order = 4
-fixups = sudo make install
+fixups = make install PREFIX=${local_root}
 
 [$HOME/Documents/GitHub/vcsh]
 checkout = git clone 'https://github.com/RichiH/vcsh.git' 'vcsh'
 order = 4
-fixups = sudo make install
+fixups = make install PREFIX=${local_root}
