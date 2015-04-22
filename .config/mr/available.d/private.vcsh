@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/private.git]
+checkout = vcsh clone git@bitbucket.org:srijanshetty/vcsh-private.git private
