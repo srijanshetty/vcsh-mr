@@ -5,8 +5,5 @@ lib =
 	   local_bin='/home/srijan/Documents/local/bin'
 	      local_root='/home/srijan/Documents/local'
 
-# vcsh support for Ubuntu 12.04
-include = cat /home/srijan/Documents/GitHub/myrepos/lib/vcsh
-
 # Include configurations for different tools
 include = cat ~/.config/mr/config.d/*
