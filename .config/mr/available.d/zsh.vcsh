@@ -12,6 +12,3 @@ fixups =
 
 [$HOME/.zprezto]
 checkout = git clone --recursive 'git@github.com:srijanshetty/prezto.git' '.zprezto'
-fixups =
-    cp runcoms/zshrc $HOME/.zshrc
-    cp runcoms/zpreztorc $HOME/.zpreztorc
