@@ -1,6 +1,2 @@
 [$HOME/.config/vcsh/repo.d/tmux.git]
 checkout = vcsh clone git@github.com:srijanshetty/vcsh-tmux.git tmux
-
-[$HOME/.tmux/plugins/tpm]
-checkout = git clone 'https://github.com/tmux-plugins/tpm' 'tpm'
-order = 8
