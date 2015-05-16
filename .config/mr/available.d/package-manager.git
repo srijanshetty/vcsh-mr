@@ -2,11 +2,14 @@
 checkout = git clone 'https://github.com/creationix/nvm.git' '.nvm'
 order = 2
 fixups = git checkout `git describe --abbrev=0 --tags`
-post_fixups = nvm install stable && nvm use stable
 pre_update = git checkout master
 
 [$HOME/.pyenv]
 checkout = git clone 'git://github.com/yyuu/pyenv.git' '.pyenv'
+order = 2
+
+[$HOME/.gvm]
+checkout = git clone 'https://github.com/moovweb/gvm.git' '.gvm'
 order = 2
 
 [$HOME/Documents/sandbox/dotfiles]
@@ -23,3 +26,4 @@ fixups = make install PREFIX=${local_root}
 checkout = git clone 'https://github.com/RichiH/vcsh.git' 'vcsh'
 order = 4
 fixups = make install PREFIX=${local_root}
+post_update = git checkout v1.3
