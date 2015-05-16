@@ -4,10 +4,11 @@ checkout = vcsh clone git@github.com:srijanshetty/vcsh-zsh.git zsh
 [$HOME/.zsh/antigen-hs]
 checkout = git clone 'https://github.com/srijanshetty/antigen-hs.git' 'antigen-hs'
 fixups =
-    if hash 'cabal'; then
+    if hash 'cabal' &> /dev/null; then
         cabal install Shelly
     else
-        echo "antigen-hs won't work with cabal and Shelly"
+        sudo apt-get install haskell-platform && cabal update
+        cabal install Shelly
     fi
 
 [$HOME/.zprezto]
