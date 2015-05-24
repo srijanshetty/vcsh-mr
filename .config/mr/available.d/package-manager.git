@@ -12,7 +12,7 @@ order = 2
 checkout = git clone 'https://github.com/moovweb/gvm.git' '.gvm'
 order = 2
 
-[$HOME/Documents/sandbox/dotfiles]
+[$HOME/.dotfiles]
 checkout = git clone git@github.com:srijanshetty/dotfiles.git
 order = 3
 post_checkout = ${PWD}/installer.zsh -d
