@@ -1,15 +1,2 @@
-[$HOME/.config/vcsh/repo.d/zsh.git]
-checkout = vcsh clone git@github.com:srijanshetty/vcsh-zsh.git zsh
-
-[$HOME/.zsh/antigen-hs]
-checkout = git clone 'https://github.com/srijanshetty/antigen-hs.git' 'antigen-hs'
-fixups =
-    if hash 'cabal' &> /dev/null; then
-        cabal install Shelly
-    else
-        sudo apt-get install haskell-platform && cabal update
-        cabal install Shelly
-    fi
-
 [$HOME/.zprezto]
 checkout = git clone --recursive 'git@github.com:srijanshetty/prezto.git' '.zprezto'
