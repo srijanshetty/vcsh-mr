@@ -1,2 +1,5 @@
 [$HOME/.zprezto]
-checkout = git clone --recursive 'git@github.com:srijanshetty/prezto.git' '.zprezto'
+checkout = git clone --recursive 'https://github.com/srijanshetty/prezto.git' '.zprezto'
+
+[$HOME/.config/vcsh/repo.d/zsh.git]
+checkout = vcsh clone 'https://github.com/srijanshetty/vcsh-zsh.git' zsh

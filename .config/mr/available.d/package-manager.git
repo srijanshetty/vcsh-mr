@@ -13,12 +13,12 @@ checkout = git clone 'https://github.com/moovweb/gvm.git' '.gvm'
 order = 2
 
 [$HOME/.dotfiles]
-checkout = git clone git@github.com:srijanshetty/dotfiles.git
+checkout = git clone 'htpps://github.com/srijanshetty/dotfiles.git'
 order = 3
 post_checkout = ${PWD}/installer.zsh -d
 
 [$HOME/Documents/GitHub/myrepos]
-checkout = git clone 'https://github.com/joeyh/myrepos.git' 'myrepos'
+checkout = git clone 'git://myrepos.branchable.com/' 'myrepos'
 order = 4
 fixups = make install PREFIX=${local_root}
 
