@@ -23,3 +23,7 @@ checkout = git clone 'https://github.com/RichiH/vcsh.git' 'vcsh'
 order = 4
 fixups = make install PREFIX=${local_root}
 post_update = git checkout v1.3
+
+[$HOME/.linuxbrew]
+checkout = git clone 'https://github.com/Homebrew/linuxbrew.git' '.linuxbrew'
+order = 4
