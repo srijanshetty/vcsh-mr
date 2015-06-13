@@ -2,8 +2,8 @@
 git_gc = git gc "$@"
 jobs = 5
 lib =
-	   local_bin='/home/srijan/Documents/local/bin'
-	      local_root='/home/srijan/Documents/local'
+	local_bin='/home/srijan/Documents/local/bin'
+	local_root='/home/srijan/Documents/local'
 
 # Include configurations for different tools
 include = cat ~/.config/mr/config.d/*
