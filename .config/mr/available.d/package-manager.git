@@ -11,7 +11,6 @@ order = 2
 [$HOME/.dotfiles]
 checkout = git clone 'htpps://github.com/srijanshetty/dotfiles.git'
 order = 3
-post_checkout = ${PWD}/installer.zsh -d
 
 [$HOME/Documents/GitHub/myrepos]
 checkout = git clone 'git://myrepos.branchable.com/' 'myrepos'
@@ -26,4 +25,4 @@ post_update = git checkout v1.3
 
 [$HOME/.linuxbrew]
 checkout = git clone 'https://github.com/Homebrew/linuxbrew.git' '.linuxbrew'
-order = 4
+order = 2
