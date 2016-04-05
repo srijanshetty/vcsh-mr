@@ -1,2 +1,2 @@
-[$HOME/.config/vcsh/repo.d/beets.git]
+[$HOME/.config/vcsh/repo.d/code-snippets.git]
 checkout = vcsh clone git@github.com:srijanshetty/code-snippets.git code-snippets
