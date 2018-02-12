@@ -26,3 +26,8 @@ post_update = git checkout v1.3
 [$HOME/.linuxbrew]
 checkout = git clone 'https://github.com/Homebrew/linuxbrew.git' '.linuxbrew'
 order = 2
+
+[$HOME/.rustup-installer]
+checkout = git clone 'https://github.com/rust-lang-nursery/rustup.rs.git' '.rustup-installer'
+order = 4
+fixups = sh rustup-init.sh -y
