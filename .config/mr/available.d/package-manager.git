@@ -8,10 +8,6 @@ pre_update = git checkout master
 checkout = git clone 'git://github.com/yyuu/pyenv.git' '.pyenv'
 order = 2
 
-[$HOME/.dotfiles]
-checkout = git clone 'htpps://github.com/srijanshetty/dotfiles.git'
-order = 3
-
 [$HOME/Documents/GitHub/myrepos]
 checkout = git clone 'git://myrepos.branchable.com/' 'myrepos'
 order = 4
