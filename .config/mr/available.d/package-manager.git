@@ -20,7 +20,7 @@ fixups = make install PREFIX=${local_root}
 post_update = git checkout v1.3
 
 [$HOME/.linuxbrew]
-checkout = git clone 'https://github.com/Homebrew/linuxbrew.git' '.linuxbrew'
+checkout = git clone 'https://github.com/Homebrew/brew.git' '.linuxbrew'
 order = 2
 
 [$HOME/.rustup-installer]
