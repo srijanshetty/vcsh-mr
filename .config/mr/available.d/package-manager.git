@@ -16,8 +16,8 @@ fixups = make install PREFIX=${local_root}
 [$HOME/Documents/GitHub/vcsh]
 checkout = git clone 'https://github.com/RichiH/vcsh.git' 'vcsh'
 order = 4
-fixups = make install PREFIX=${local_root}
-post_update = git checkout v1.3
+pre_update = git checkout master
+fixups = git checkout v1.3 && make install PREFIX=${local_root}
 
 [$HOME/.linuxbrew]
 checkout = git clone 'https://github.com/Homebrew/brew.git' '.linuxbrew'
