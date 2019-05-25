@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/terminal.git]
+checkout = vcsh clone 'git@github.com:srijanshetty/vcsh-terminal.git' terminal
