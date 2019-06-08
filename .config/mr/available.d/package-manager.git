@@ -1,8 +1,8 @@
 [$HOME/.nvm]
 checkout = git clone 'https://github.com/creationix/nvm.git' '.nvm'
 order = 2
-fixups = git checkout `git describe --abbrev=0 --tags`
-pre_update = git checkout master
+# fixups = git checkout `git describe --abbrev=0 --tags`
+# pre_update = git checkout master
 
 [$HOME/.pyenv]
 checkout = git clone 'git://github.com/yyuu/pyenv.git' '.pyenv'
