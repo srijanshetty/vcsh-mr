@@ -28,7 +28,7 @@ fixups = cp vcsh ${local_bin}
 checkout = git clone 'https://github.com/Homebrew/brew.git' '.linuxbrew'
 order = 2
 
-[$HOME/.rustup-installer]
-checkout = git clone 'https://github.com/rust-lang-nursery/rustup.rs.git' '.rustup-installer'
-order = 4
-fixups = sh rustup-init.sh -y
+# [$HOME/.rustup-installer]
+# checkout = git clone 'https://github.com/rust-lang-nursery/rustup.rs.git' '.rustup-installer'
+# order = 4
+# fixups = sh rustup-init.sh -y
