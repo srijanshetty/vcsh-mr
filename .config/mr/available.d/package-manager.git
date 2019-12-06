@@ -8,7 +8,7 @@ order = 2
 checkout = git clone 'git://github.com/yyuu/pyenv.git' '.pyenv'
 order = 2
 
-[$HOME/./pyenv/pyenv-virtualenv]
+[$HOME/.pyenv/plugins/pyenv-virtualenv]
 checkout = git clone https://github.com/pyenv/pyenv-virtualenv.git '.pyenv/plugins/pyenv-virtualenv'
 order = 3
 
