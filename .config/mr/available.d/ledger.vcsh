@@ -1,2 +1,0 @@
-[$HOME/.config/vcsh/repo.d/ledger.git]
-checkout = vcsh clone git@bitbucket.org:srijanshetty/vcsh-ledger.git ledger

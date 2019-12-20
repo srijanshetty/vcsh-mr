@@ -1,2 +1,0 @@
-[$HOME/.config/vcsh/repo.d/xmonad.git]
-checkout = vcsh clone git@github.com:srijanshetty/vcsh-xmonad.git xmonad

@@ -1,2 +1,0 @@
-[$HOME/.config/vcsh/repo.d/beets.git]
-checkout = vcsh clone git@bitbucket.org:srijanshetty/vcsh-beets.git beets
