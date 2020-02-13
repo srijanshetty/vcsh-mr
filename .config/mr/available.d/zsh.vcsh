@@ -1,5 +1,14 @@
 [$HOME/.zprezto]
 checkout = git clone --recursive 'git@github.com:srijanshetty/prezto.git' '.zprezto'
 
+[$HOME/.zprezto-contrib/cli-goodies]
+checkout = git clone 'git@github.com:srijanshetty/cli-goodies.git'
+
+[$HOME/.zprezto-contrib/zsh-autoenv]
+checkout = git clone 'https://github.com/Tarrasch/zsh-autoenv.git'
+
+[$HOME/.zprezto-contrib/zsh-dwim]
+checkout = git clone 'https://github.com/oknowton/zsh-dwim.git'
+
 [$HOME/.config/vcsh/repo.d/zsh.git]
 checkout = vcsh clone 'git@github.com:srijanshetty/vcsh-zsh.git' zsh
