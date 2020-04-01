@@ -1,5 +1,5 @@
 [$HOME/.zprezto]
-checkout = git clone --recursive 'git@github.com:srijanshetty/prezto.git' '.zprezto'
+checkout = git clone --recursive 'https://github.com/sorin-ionescu/prezto.git' '.zprezto'
 
 [$HOME/.zprezto-contrib/cli-goodies]
 checkout = git clone 'git@github.com:srijanshetty/cli-goodies.git'
