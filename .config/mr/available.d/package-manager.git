@@ -20,9 +20,9 @@ pre_update = git checkout master
 # fixups = git checkout v1.3 && make install destdir=${local_bin}
 fixups = cp vcsh ${local_bin}
 
-[$HOME/.linuxbrew]
-checkout = git clone 'https://github.com/Homebrew/brew.git' '.linuxbrew'
-order = 2
+# [$HOME/.linuxbrew]
+# checkout = git clone 'https://github.com/Homebrew/brew.git' '.linuxbrew'
+# order = 2
 
 # [$HOME/.rustup-installer]
 # checkout = git clone 'https://github.com/rust-lang-nursery/rustup.rs.git' '.rustup-installer'
