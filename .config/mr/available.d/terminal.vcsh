@@ -1,6 +1,2 @@
 [$HOME/.config/vcsh/repo.d/terminal.git]
 checkout = vcsh clone 'git@github.com:srijanshetty/vcsh-terminal.git' terminal
-
-[$HOME/.local/share/gnome-shell/extensions/switcher@landau.fi]
-checkout = git clone https://github.com/daniellandau/switcher switcher@landau.fi
-fixups = gnome-shell-extension-tool -e switcher@landau.fi || true
